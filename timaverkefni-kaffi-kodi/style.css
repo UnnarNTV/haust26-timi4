@@ -104,7 +104,12 @@ header, footer {
 
 /* Bónus */
 .flokkur {
+    /* 448px + 448px + 4px default spacing between in-line block elements = 900px */
     width: 448px;
     display: inline-block;
     margin: 0;
+}
+
+.rettur:hover {
+    box-shadow: 3px 3px 5px black;
 }
