@@ -58,7 +58,7 @@ h1, h2, h3 {
 
 /* 1-0-0 */
 #opnunartimi {
-    background-color: rgb(224, 224, 90);
+    background-color: rgb(224, 224, 173);
 }
 
 /* 0-0-2 */
@@ -90,7 +90,7 @@ input[type="email"] {
 }
 
 .vinsaelt {
-    border: 2px dotted red;
+    border: 1px solid red;
 }
 
 nav li {
@@ -112,4 +112,13 @@ header, footer {
 
 .rettur:hover {
     box-shadow: 3px 3px 5px black;
+}
+
+.rettur, button {
+    /* NOTE: Hvað er miði? */
+    border-radius: 10px;
+}
+
+#opnunartimi li:last-child {
+    border-bottom: 2px solid green;
 }
